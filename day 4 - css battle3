@@ -1,0 +1,83 @@
+<div class="container">
+ <div class="container">
+<div class="circle"></div>
+  </div>
+  <div class="container">  
+<div class="biggercircle"></div>
+</div>
+<div class="container">
+  <div class="lft"></div>
+</div>
+<div class="container">
+  <div class="rght"></div>
+</div>
+<div class="container">
+	<div class="behnd"></div>
+</div>
+</div>
+
+<style>
+  
+  
+  .behnd{
+    background-color: #6592CF;
+    width: 272px;
+    height: 228px;
+    clip-path: circle(50%);
+    z-index: 1;
+    margin: auto;
+ 
+  }
+  .lft{
+    width: 50px;
+    height: 150px;
+    background: #243D83;
+    position: relative; 
+    margin-right: 251px;
+    display: block;
+  }
+  
+  .rght {
+    width: 49px;
+    height: 150px;
+    background: #243D83;
+    position: relative; 
+    margin-left: 251px;
+    display: block;
+  
+  }
+  .container {
+    display: flex;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .circle {
+    width: 50px;
+    height: 50px;
+    clip-path: circle(50%);
+    background: #dd6b4d;
+    margin: auto;
+    position: relative;
+    background-color: #EEB850;
+    z-index: 3;
+  }
+  
+  .biggercircle {
+    z-index: 2;
+    width: 150px;
+    height: 150px;
+    clip-path: circle(50%);
+    background: #243D83;
+  }
+  
+  body {
+    background-color: #6592CF;
+  }
+</style>
+
