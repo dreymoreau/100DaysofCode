@@ -1,0 +1,50 @@
+<div class="square1"></div>
+<div class="square2"></div>
+<div class="square3"></div>
+
+<style>
+  body {
+    background: #62306D;
+  }
+ 
+  .square1 {
+   background-color: #F7EC7D;
+   width: 100px;
+   height: 100px;
+   margin: auto;
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 100px;
+   border-radius: 150px 150px 0 0;
+  }
+  
+  .square2 {
+   background-color: #F7EC7D;
+   width: 100px;
+   height: 100px;
+   margin: auto;
+   position: absolute;
+   top: 99px;
+   left: 0;
+   right: 200px;
+   bottom: 0;
+   border-radius: 150px 150px 0 0;
+   transform: rotate(180deg);
+}
+  .square3 {
+   background-color: #F7EC7D;
+   width: 100px;
+   height: 100px;
+   margin: auto;
+   position: absolute;
+   top: 99px;
+   left: 250px;
+   right: 200px;
+   bottom: 0;
+   border-radius: 150px 150px 0 0;
+   transform: rotate(180deg);
+}
+  
+</style>
