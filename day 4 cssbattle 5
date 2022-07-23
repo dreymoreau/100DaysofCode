@@ -1,0 +1,58 @@
+<div class="circle"></div>
+<div class="container">
+<div class="shape2"></div>
+</div> 
+<div class="container2">
+<div class="shape3">
+</div>
+  
+  <style>
+  
+  .container {
+    display: flex;
+    position: absolute;
+	top: 92px;
+ 	left: 19px; 
+  }
+  .container2 {
+    display: flex;
+    position: absolute;
+    left: 82px;
+    bottom: 31px;
+  }
+  .circle {
+    width: 119.7px;
+    height: 119.7px;
+    clip-path: circle(50%);
+    background-color: #F3AC3C;
+    margin-top: 30.1px;
+    margin-left: 192.2px;
+    z-index: 1;
+  }
+  
+  .shape2 {
+    width: 119.1px;
+    height: 121.8px;
+    border-radius: 166px 160px 160px 0px;
+    background-color: #998235;
+    display: flex;
+    margin-left: 122.2px;
+    margin-top: -1.7px;
+    z-index: 2;
+    transform: rotate(180deg);
+  }
+  
+  .shape3 {
+    width: 118px;
+    height: 118px;
+    border-radius: 173px 172px 175px 0px;
+    background-color: #F3AC3C;
+    display: flex;
+    z-index: 3;
+    transform: rotate(180deg);
+  }
+  
+  body {
+    background: #0B2429;
+  }
+</style>
