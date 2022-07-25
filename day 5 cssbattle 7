@@ -1,0 +1,72 @@
+<div class="container">
+<div class="leaf1"></div>
+</div>
+<div class="container2">
+<div class="leaf2"></div>
+</div>
+<div class="container3">
+<div class="leaf3"></div>
+</div>
+
+<style>
+  .container {
+    display: flex; 
+    position: absolute;
+    left: 75px;
+    top: 73.8px;
+    z-index: 3;
+  }
+  
+   .container2 {
+    display: flex; 
+    position: absolute;
+    top: 74.9px;
+    left: 27px;
+    z-index: 2;
+  }
+  
+   .container3 {
+    display: flex; 
+    position: absolute;
+    top: 72.4px;
+    left: -16px;
+  }
+  
+   .leaf1 {
+    width: 149px; 
+    height: 148.8px;
+    display: flex;
+    background-color: #F3AC3C;
+    border-radius: 0px 93px 0px 103px;
+    transform: rotate(90deg);
+   	margin-left: 99.7px;
+  }
+ 
+  .leaf2 {
+    width: 149px; 
+    height: 147px;
+    display: flex;
+    background-color: #998235;
+    border-radius: 0px 109px 0px 107px;
+    transform: rotate(90deg);
+ 	  margin-left: 101px;
+    margin-top: 0px;
+    z-index: 1;
+  }
+ 
+  .leaf3 {
+    width: 148.7px; 
+    height: 152px;
+    display: flex;
+    background-color: #1A4341;
+    border-radius: 0px 97px 0px 100px;
+    transform: rotate(90deg);
+  	margin-left: 100px;
+    z-index: 1;
+  }
+  
+  body {
+    background: #0B2429;
+  }
+  
+</style>
