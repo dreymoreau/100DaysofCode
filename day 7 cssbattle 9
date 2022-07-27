@@ -1,0 +1,93 @@
+<div class="container">
+  <div class="circle"></div>
+</div>
+
+<div class="container">
+  <div class="sq1"></div>
+</div>
+
+<div class="container">
+  <div class="sq2"></div>
+</div>
+
+<div class="container2">
+  <div class="rectangle1"></div>
+</div>
+
+<div class="container3">
+  <div class="rectangle2"></div>
+</div>
+
+<style>
+ 
+ body {
+    background: #222730;
+  }
+  
+  .container {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+   .container2 {
+    display: flex;
+    position: absolute;
+    top: 75px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .container3 {
+    display: flex;
+    position: absolute;
+    top: 75px;
+    right: 0;
+    bottom: 0;
+    left: 300px;
+  }
+  
+  .circle {
+    width: 50px;
+    height: 50px;
+    clip-path: circle(50%);
+    background-color: #393E46;
+    margin: auto;
+    z-index: 4;
+  }
+  
+  .sq1 {
+    width: 150px;
+    height: 150px;
+    background-color: #4CAAB3;
+    margin: auto;
+    transform: rotate(-45deg);
+    z-index: 3;
+  }
+  
+  .sq2 {
+    width: 250px;
+    height: 250px;
+    background-color: #222730;
+    margin: auto;
+    transform: rotate(-45deg);
+    z-index: 2;
+  }
+  
+  .rectangle1 {
+    width: 150px;
+    height: 150px;
+    background-color: #4CAAB3;
+  }
+  
+  .rectangle2 {
+    width: 150px;
+    height: 150px;
+    background-color: #4CAAB3;
+  }
+  
+</style>
