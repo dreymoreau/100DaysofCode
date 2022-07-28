@@ -1,0 +1,81 @@
+//html
+
+<header>
+  <h1 class="one"> Wow here is some text </h1>
+    <h3 class="two"> here is more text but smaller</h3>
+</header>
+<hr>
+<body>
+  <fieldset class="yellow">
+  <p class="first">In tellus integer feugiat scelerisque. In cursus turpis massa tincidunt dui. Magna ac placerat vestibulum lectus. A diam maecenas sed enim ut. Nisl purus in mollis nunc sed id. Tellus integer feugiat scelerisque varius morbi enim nunc. Egestas sed sed risus pretium. Morbi enim nunc faucibus a pellentesque sit amet porttitor. Massa sed elementum tempus egestas sed sed risus pretium quam. Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Congue mauris rhoncus aenean vel elit scelerisque mauris. Non pulvinar neque laoreet suspendisse interdum consectetur libero. Porta lorem mollis aliquam ut porttitor leo.</p> </fieldset>
+  <br>
+  <fieldset class="yellow">
+  <p class="second"> Sit amet consectetur adipiscing elit ut aliquam purus. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi. Turpis massa sed elementum tempus egestas sed sed risus pretium. In hendrerit gravida rutrum quisque. Eget est lorem ipsum dolor sit amet consectetur adipiscing elit. Justo nec ultrices dui sapien eget mi proin sed. At urna condimentum mattis pellentesque id nibh. Cursus sit amet dictum sit amet justo donec. Elit pellentesque habitant morbi tristique senectus et netus et malesuada. Leo in vitae turpis massa sed elementum. Tellus integer feugiat scelerisque varius morbi enim nunc faucibus. Facilisis gravida neque convallis a cras semper auctor neque vitae. </p>
+    </fieldset>
+  <br>
+  <fieldset class="yellow">
+  <p class="third">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet. Diam quam nulla porttitor massa. Leo vel fringilla est ullamcorper. Mauris ultrices eros in cursus turpis massa. Netus et malesuada fames ac turpis egestas integer. Nisl tincidunt eget nullam non nisi est sit amet facilisis. Porttitor eget dolor morbi non arcu risus quis. Purus semper eget duis at. Viverra justo nec ultrices dui sapien eget mi proin. Consequat nisl vel pretium lectus quam. Euismod lacinia at quis risus sed vulputate. Blandit turpis cursus in hac habitasse platea. Fermentum iaculis eu non diam phasellus. Dolor sit amet consectetur adipiscing. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. </p> </fieldset>
+ <hr>
+  <div class="container">
+    <p class="last"> here is the bottom of the webpage :] </p> </div>
+  <div class="container2">
+  <div class="link"> <a href="https://www.twitter.com/dreymotoh">Twitter</a></div>
+  </div>
+</body>
+
+//css
+
+body {
+  background: grey;
+  max-width: 870px;
+  max-height: 488px;
+}
+
+.yellow {
+  border: 2px solid yellow;
+}
+
+.one {
+  color: orange;
+}
+
+header {
+  text-align: center;
+}
+
+.first, .second, .third {
+  font-weight: bold;
+  display: flex;
+  padding: 1.5em;
+}
+
+.last {
+  text-align: left;
+  font-weight: bold;
+  display: block;
+}
+
+.link {
+  text-align: right;
+  display: flex;
+  position: relative;
+}
+
+.link:hover {
+  background-color: red;
+}
+
+.container {
+  display: flex;
+  position: absolute;
+  left: 15px;
+}
+.container2 {
+  display: flex;
+  position: relative;  
+  justify-content: right;
+  align-items: right;
+  margin-top: 23px;
+  margin-right: 7px;
+}
