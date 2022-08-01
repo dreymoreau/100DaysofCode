@@ -1,0 +1,118 @@
+//html
+
+<body>
+  <header>
+      <div class="container">
+        <nav>
+          <ul>
+            <li>
+         <a href="#">Home</a>
+        </li>
+        
+        <li>  
+          <a href="#">Link1</a>
+        </li>
+        
+        <li>
+          <a href="#">Link 2</a>         </li>
+        
+        <li>
+          <a href="#">Link 3!           </a>        
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <br>
+  <fieldset>
+    <h1> this is at the top of the page     </h1>
+    
+    <h2> and this is more text that is centered underneath </h2>
+    </fieldset>
+ 
+  <p class="one"> sometimes i look at what i am making and it looks very basic, theres concepts in my mind that i want to implement but i think the most important part about the process is learning that this will all take time, that through the journey there will be lots to learn, lots to let go, lots to embrace, where we will get to a place to where we want to be now, but have the knowledge that has been retained through spaced repetition and active recall </p>
+  
+  <fieldset>
+    <p class="two"> now when i look at this webpage or what this is called, i feel like my progression doesn't reperesent on what i know, but then i stop for a second and think that the best i can do right now without looking at texts, or searching up anything is this, i should be proud! </p>
+      
+      <p class="three">not too long ago i didn't know how to implement these concepts when i wanted to! i think it can be so easy to base where we are off of where other people and i think the more that we grow and expand, that comparision will come and go nonstop, its up to us to recognize when this is happening! to stop, take a breath and know that we are doing our best and that in this moment! right now! this is the process! <3 </p>
+    </fieldset>
+</body>
+
+
+/css
+
+body {
+  background: #FFC3C3;
+  
+}
+.container {
+  background-color: #333;
+}
+
+header {
+  background-color: orange;
+  box-shadow: 0 0 25px 0 black; 
+font-family: sans-serif;  
+}
+
+header::after{
+  content: "";
+  display: table; 
+  clear: both;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin: auto;
+  padding: 10px;
+  }
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 50px;
+  margin-left: 70px;
+}
+
+nav a:hover {
+  color: #FF0000;
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+fieldset {
+  border: 2px solid black;
+}
+
+p {
+  font-weight: bold;
+}
+
+h1:hover {
+  color: #7D0AA6;
+}
+
+h2:hover {
+  color: #1A0AA6;
+}
+
+.one:hover {
+  color: #A6A60A;
+}
+
+.two:hover{
+  color: #A6490A;
+}
+
+.three:hover {
+  color: #0D6C06;
+}
